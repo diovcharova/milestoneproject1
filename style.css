@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600&display=swap');
+
+/* ------------------- General */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ------------------- Navigation bar */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #e6e6e6;
+    opacity: 0.85;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-toggler-icon {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(240,194,209)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar .navbar-brand {
+    font-weight: bolder;
+}
+
+.navbar .navbar-nav li a {
+    font-weight: 500;
+}
+
+#navbarNavDropdown {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#navbarNavDropdown ul li a:hover {
+    color: #f0c2d1;
+}
+
+/* ------------------- Containers */
+
+.callout-container {
+    height: 100vh;
+
+    background-image: url('yogabg.jpg');
+    background-repeat: no-repeat;
+    background-attachement: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    padding: 0;
+}
+
+.container-fluid {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.section-bg-offwhite {
+    background-color: #e6e6e6;
+}
+
+.section-bg-pink {
+    background-color: #f0c2d1;
+}
+
+/* ------------------- Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h4 {
+    margin-bottom: 25px;
+}
+
+/* ------------------- Dividers */
+
+.divider-pink {
+    width: 150px;
+    height: 5px;
+    border: 0;
+    background-color: #f0c2d1;
+}
+
+.divider-thin-grey {
+    width: 150px;
+    height: 2px;
+    border: 0;
+    background-color: #444;
+}
+
+
+/* ------------------- Buttons */
+
+.btn--pink {
+    background-color: #f0c2d1;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    opacity: .85;
+}
+
+.btn--pink:hover {
+    background-color: #e698bf;
+}
+
+.btn--darkpink {
+    background-color: #e698bf;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn--darkpink:hover {
+    background-color: #e698bf;
+}
+
+.btn {
+    white-space: nowrap;
+    text-align: center;
+}
+
+/* ------------------- Footer */
+
+footer {
+    background-color: #e6e6e6;
+    opacity: .85;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #444;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #f0c2d1;
+}
+
+/* ------------------- Various */
+
+.display-inline-block {
+    display: inline-block;
+
+}
+
+.noindent {
+    margin: 0;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: #e698bf;
+}
+
+.btn-space {
+    margin-top: 10px;
+}
+
+.indent {
+    margin-bottom: 15px;
+}
+
+
+.fit-into-container {
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+
+/* ------------------- Media queries */
+
+@media(min-width: 992px) {
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
+/* ------------------- Home */
+
+.section-heading {
+    margin-top: 15px;
+}
+
+.color-pink {
+    color: #f0c2d1;
+    opacity: 0.75;
+}
+
+.color-grey {
+    color: #444;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-darkpink {
+    color: #e698bf;
+}
+
+.icon-hover {
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.icon-hover:hover {
+    color: #e698bf;
+}
+
+
+/* ------------------- Contact */
+
+.btn-lg {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.center-form {
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 0;
+}
+
+#fullname,
+#emailaddress,
+#subject {
+    margin-bottom: 5px;
+}
+
+.container-contact{
+    border:2px;
+    border-style: solid;
+    border-color: #f0c2d1;
+    border-radius: 15px;
+    padding: 15px;
+margin-top: 15px;
+}
+
+/* ------------------- Prices */
+
+.price-container {
+    height: 20em;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    margin: 15px;
+}
+
+
+.alert-pink {
+    background-color: #faeaf0;
+}
+
+.stripcard1 {
+    background-image: url('pictures/stripcard1.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.stripcard2 {
+    background-image: url('pictures/stripcard2.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.stripcard3 {
+    background-image: url('pictures/stripcard3.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.unlimited1 {
+    background-image: url('pictures/unlimited1.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.unlimited2 {
+    background-image: url('pictures/unlimited2.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.unlimited3 {
+    background-image: url('pictures/unlimited3.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.unlimited4 {
+    background-image: url('pictures/unlimited4.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.other1 {
+    background-image: url('pictures/other1.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.other2 {
+    background-image: url('pictures/other2.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.other3 {
+    background-image: url('pictures/other3.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-prices {
+    background-color: rgb(255, 255, 255, .75);
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+/* ------------------- Schedule */
+
+.thead-pink{
+    background-color: #f0c2d1;
+    opacity: .85;
+    
+}
