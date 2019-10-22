@@ -269,6 +269,7 @@ a:hover {
 }
 
 
+
 /* ------------------- Contact */
 
 .btn-lg {
@@ -413,6 +414,14 @@ margin-top: 15px;
     border-radius: 15px;
     padding: 5px;
 
+}
+
+.color-grey-nochange{
+    color:#444;
+}
+
+.color-grey-nochange:hover{
+    color:#444;
 }
 
 /* ------------------- Schedule */

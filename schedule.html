@@ -17,37 +17,37 @@
 </head>
 
 <body>
-    <div class="container-fliud">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="index.html">Yoga studio Balance</a>
-            <button class="navbar-toggler ml-auto icon-bar" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <div class="container-fliud">
+            <nav class="navbar navbar-expand-md navbar-light noindent">
+                <a class="navbar-brand" href="index.html">Yoga studio Balance</a>
+                <button class="navbar-toggler ml-auto icon-bar" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="schedule.html">Weekly Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="prices.html">Prices</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item mr-2 d-block d-sm-none">
-                        <a class="nav-link" href="login.html">Become a member!</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-none d-md-block">
-                <a href="login.html" class="btn btn-lg btn--pink">Sign In!</a>
-            </div>
-        </nav>
-    </div>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="schedule.html">Weekly Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prices.html">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="d-none d-md-block">
+                    <button class="btn btn-lg btn--pink" data-toggle="modal" data-target="#signInModal">Sign In!</button>
+                </div>
+            </nav>
+        </div>
+    </header>
 
     <section class="container-fluid">
         <div class="row">
@@ -373,19 +373,19 @@
     </section>
 
 
-    <footer class="container-fluid">
+ <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
-                <h5 class="centered">Already a member?</h5>
+                <h5 class="centered noindent">Already a member?</h5>
                 <div class="row">
-                    <div class="col-4 offset-4">
-                        <a href="login.html" class="btn btn-lg btn--pink centered ">Sign In!</a>
+                    <div class=" centered col-md-6 col-lg-4 offset-md-3 offset-lg-4">
+                        <button class="btn btn-lg btn--pink centered" data-toggle="modal" data-target="#signInModal">Sign In!</button>
                     </div>
                 </div>
-                <h5 class="centered">Not a member?</h5>
+                <h5 class="centered noindent">Not a member?</h5>
                 <div class="row">
-                    <div class="col-8 offset-2">
-                        <a href="login.html" class="btn btn-lg btn--pink centered  ">Try a week for free!</a>
+                    <div class="centered col-md-10 col-lg-6 offset-md-1 offset-lg-3">
+                        <button class="btn btn-lg btn--pink centered" data-toggle="modal" data-target="#signUpModal">Try a week for free!</button>
                     </div>
                 </div>
 
@@ -428,6 +428,65 @@
             </div>
         </div>
     </footer>
+  <div class="modal" tabindex="-1" role="dialog" id="signInModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Log into your account!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <a href="#" class="text-decoration-none color-grey"> Not a member yet?</a> </br>
+                        <button type="submit" class="btn btn--pink btn-space">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up for a free trial week!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <a href="#" class="text-decoration-none color-grey"> Already a member?</a> </br>
+                        <button type="submit" class="btn btn--pink btn-space">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
