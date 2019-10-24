@@ -42,4 +42,4 @@ All of the content on the website is written by me.
 The photos used in this site were obtained from various sites for stock images such as [Stocksnap](https://stocksnap.io), [Unsplash](https://unsplash.com), [Pixabay](https://pixabay.com) and [Pexels](https://www.pexels.com). The picture in the callout section in the home page, as well as the pictures in the prices page have an opacity filter applied to make them more neutral to the eye.
 ### Acknowledgements 
 I have received inspiration for the prices page on the site from the site of [yoga studio Balansz](https://balanzs.nl). 
-The home page is inspired by the Whiskey Drop website, built in the User Centric Frontend Development module of the couse at Code Insitute. 
+The home page is inspired by the Whiskey Drop website, built in the User Centric Frontend Development module of the course at Code Insitute. 
