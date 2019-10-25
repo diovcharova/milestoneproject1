@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!--********TOP JUMBOTRON/NAVBAR********-->
     <header>
         <div class="container-fliud">
             <nav class="navbar navbar-expand-md navbar-light">
@@ -48,6 +49,7 @@
         </div>
     </header>
 
+    <!--********PRICES********-->
     <section class="container-fluid">
         <div class="row">
             <div class="col text-center">
@@ -57,6 +59,7 @@
                     </p>
                 </div>
 
+                <!--********STRIP CARDS********-->
                 <h2 class="section-heading color-grey ">Strip cards</h2>
                 <p class="">You have the choice between 5-, 10- and 20-lesson cards. Those are valid for maximum 3 months for any yoga lesson.</p>
                 <div class="row">
@@ -75,7 +78,7 @@
                             <h3>Card for 10 lessons</h3>
                             <h5 class="text-muted">125€</h5>
                         </div>
-                        <button class="btn btn-lg btn--pink "disabled>Buy now!</button>
+                        <button class="btn btn-lg btn--pink " disabled>Buy now!</button>
                     </div>
                     <div class="col-md price-container jumbotron stripcard3">
                         <div class="opaque-overlay">&nbsp;</div>
@@ -83,11 +86,13 @@
                             <h3>Card for 20 lessons</h3>
                             <h5 class="text-muted">200€</h5>
                         </div>
-                        <button class="btn btn-lg btn--pink"disabled>Buy now!</button>
+                        <button class="btn btn-lg btn--pink" disabled>Buy now!</button>
                     </div>
                     <div class="col-md"></div>
                 </div>
                 <hr class="divider-thin-grey">
+
+                <!--********UNLIMITED YOGA CARDS********-->
                 <h2 class="section-heading color-grey ">Unlimited yoga</h2>
                 <p class="">We offer 1-, 3-, 6- and 12-month subsciptions for unlimited access to all yoga classes.</p>
                 <div class="row">
@@ -98,7 +103,7 @@
                             <h3>1 month unlimited</h3>
                             <h5 class="text-muted">85€</h5>
                         </div>
-                        <button class="btn btn-lg btn--pink"disabled>Buy now!</button>
+                        <button class="btn btn-lg btn--pink" disabled>Buy now!</button>
                     </div>
                     <div class="col-md price-container jumbotron unlimited2 ">
                         <div class="opaque-overlay">&nbsp;</div>
@@ -106,7 +111,7 @@
                             <h3>3 months unlimited</h3>
                             <h5 class="text-muted">235€</h5>
                         </div>
-                        <button class="btn btn-lg btn--pink"disabled>Buy now!</button>
+                        <button class="btn btn-lg btn--pink" disabled>Buy now!</button>
                     </div>
                     <div class="col-md price-container jumbotron unlimited3 ">
                         <div class="opaque-overlay">&nbsp;</div>
@@ -114,7 +119,7 @@
                             <h3>6 months unlimited</h3>
                             <h5 class="text-muted">435€</h5>
                         </div>
-                        <button class="btn btn-lg btn--pink "disabled>Buy now!</button>
+                        <button class="btn btn-lg btn--pink " disabled>Buy now!</button>
                     </div>
                     <div class="col-md price-container jumbotron unlimited4 ">
                         <div class="opaque-overlay">&nbsp;</div>
@@ -122,11 +127,13 @@
                             <h3>12 months unlimited</h3>
                             <h5 class="text-muted">775€</h5>
                         </div>
-                        <button class="btn btn-lg btn--pink"disabled>Buy now!</button>
+                        <button class="btn btn-lg btn--pink" disabled>Buy now!</button>
                     </div>
                     <div class="col-md"></div>
                 </div>
                 <hr class="divider-thin-grey">
+
+                <!--********OTHER OPTIONS********-->
                 <h2 class="section-heading color-grey ">Other</h2>
                 <p class="">You can also buy a single lesson, book a private lesson with one of our teachers or buy a gift card.</p>
                 <div class="row">
@@ -135,7 +142,7 @@
                         <div class="opaque-overlay">&nbsp;</div>
                         <div class="container-prices">
                             <h3 class="">A single lesson</h3>
-                            <h5 class="text-muted">15€ </br> Only avaialable at the studio</h5>
+                            <h5 class="text-muted">15€ <br> Only avaialable at the studio</h5>
                         </div>
                     </div>
                     <div class="col-md price-container jumbotron other2">
@@ -144,8 +151,7 @@
                             <h3>Private lessons</h3>
                             <h5 class="text-muted">Contact us for more information.</h5>
                         </div>
-                        <button class="btn btn-lg btn--pink" ><a class="text-decoration-none color-grey-nochange" href="contact.html">Send us a message!</a></button>
-
+                        <a href="contact.html" class="btn btn-lg btn--pink text-decoration-none color-grey-nochange">Send us a message!</a>
                     </div>
                     <div class="col-md price-container jumbotron other3">
                         <div class="opaque-overlay">&nbsp;</div>
@@ -153,17 +159,16 @@
                             <h3>Gift card</h3>
                             <h5 class="text-muted">Choose the amount yourself.</h5>
                         </div>
-                        <button class="btn btn-lg btn--pink"disabled>Buy now!</button>
+                        <button class="btn btn-lg btn--pink" disabled>Buy now!</button>
                     </div>
                     <div class="col-md"></div>
                 </div>
             </div>
-
         </div>
     </section>
 
 
-
+    <!--********FOOTER********-->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
@@ -220,7 +225,7 @@
         </div>
     </footer>
 
-
+    <!--********SIGN IN MODAL********-->
     <div class="modal" tabindex="-1" role="dialog" id="signInModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -234,14 +239,13 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
                         </div>
                         <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <label for="password1">Password</label>
+                            <input type="password" class="form-control" id="password1" placeholder="Password" required>
                         </div>
-                        <a href="#" class="text-decoration-none color-grey"> Not a member yet?</a> </br>
+                        <a href="#signUpModal" data-toggle="modal" data-dismiss="modal" class="text-decoration-none color-grey"> Not a member yet?</a> <br>
                         <button type="submit" class="btn btn--pink btn-space">Sign In</button>
                     </form>
                 </div>
@@ -249,6 +253,7 @@
         </div>
     </div>
 
+    <!--********SIGN UP MODAL********-->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -261,19 +266,19 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <label for="exampleInputEmail2">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email" required>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                            <small id="passwordHelp" class="form-text text-muted">Must contain at least one number and one uppercase and one lowercase letter. Must be at least 8 characters.</small>
                         </div>
                         <div class="form-group">
                             <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
                         </div>
-                        <a href="#" class="text-decoration-none color-grey"> Already a member?</a> </br>
+                        <a href="#signInModal" data-toggle="modal" data-dismiss="modal" class="text-decoration-none color-grey"> Already a member?</a> <br>
                         <button type="submit" class="btn btn--pink btn-space">Sign Up</button>
                     </form>
                 </div>

@@ -56,9 +56,9 @@ body {
 .callout-container {
     height: 100vh;
 
-    background-image: url('yogabg.jpg');
+    background-image: url('pictures/yogabg.jpg');
     background-repeat: no-repeat;
-    background-attachement: fixed;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -289,13 +289,13 @@ a:hover {
     margin-bottom: 5px;
 }
 
-.container-contact{
-    border:2px;
+.container-contact {
+    border: 2px;
     border-style: solid;
     border-color: #f0c2d1;
     border-radius: 15px;
     padding: 15px;
-margin-top: 15px;
+    margin-top: 15px;
 }
 
 /* ------------------- Prices */
@@ -416,18 +416,18 @@ margin-top: 15px;
 
 }
 
-.color-grey-nochange{
-    color:#444;
+.color-grey-nochange {
+    color: #444;
 }
 
-.color-grey-nochange:hover{
-    color:#444;
+.color-grey-nochange:hover {
+    color: #444;
 }
 
 /* ------------------- Schedule */
 
-.thead-pink{
+.thead-pink {
     background-color: #f0c2d1;
     opacity: .85;
-    
+
 }

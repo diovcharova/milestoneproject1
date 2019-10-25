@@ -17,7 +17,7 @@ The design I have chosen is very simple, in order to make the access of informat
 The header and footer in all pages are identical. The navbar expands at a medium size screen, and a button for sign in appears. The footer also consists of sign in and sign up buttons, as well as links to social media and the other pages of the website for easier access. All the sign up and sign in buttons are linked to a modal with a validated form. The weekly schedule is displayed as a neat table at the large screens. At smaller size screens, it displays the columns stacked. The prices page consists of different section for the different possible subscriptions a user that buy. Each section is a card with information on the price and a button to buy it, which is currently disabled. The contact page has the address and contact information, as well as a form, which enables the user to contact the studio more easily. 
 
 ### Features left to implement
-In the future, I would like to make the schedule more interactive, perhaps by having the user choose a date from a calendar and the classes for that day would load. I would also like to add the functionalities that allow the users to buy a subscription throught the website.
+In the future, I would like to make the schedule more interactive, perhaps by having the user choose a date from a calendar and the classes for that day would load. I would also like to add the functionalities that allow the users to buy a subscription throught the website. Another thing that is left is to implement is the validation that the two passwords, submitted in the sign up form match.
 
 ## Technologies Used
 1. HTML5

@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <!--********TOP JUMBOTRON/NAVBAR********-->
     <header class="">
         <div class="container-fliud">
             <nav class="navbar navbar-expand-md navbar-light noindent">
@@ -48,6 +49,8 @@
             </nav>
         </div>
     </header>
+
+
     <div class="container-fluid callout-container">
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
@@ -61,6 +64,8 @@
             </div>
         </div>
     </div>
+    
+        <!--********ABOUT US********-->
     <div class="container-fluid ">
         <div class="row">
             <div class=" text-center col-sm-4 offset-sm-4 ">
@@ -69,16 +74,17 @@
         </div>
         <div class="row">
             <div class="col-12 col-sm-5 text-center indent ">
-                <img src="pictures/balance.jpg"></img>
+                <img src="pictures/balance.jpg" alt="Balance">
             </div>
             <div class="col-12 col-sm-6 text-center">
                 <p><strong>Balance</strong> is what inspires us. We believe life is already messy as it is so we commited ourselves to creating a space, where you can get some rest, work on your fitness and health and have the opportunity to connect with
-                    like-minded people. We are devoted to giving you an experience you can carry with you in your everyday life. Our main purpose is to help guide you through a journey of self-discovery and inner peace. </br>
-                    Our authentic yoga studio was established in 2008 in the heart of Rotterdam. Our team is diverse and so are our students. We offer workshops and teacher trainings for those who want to deepen their own practice and knowledge about yoga, meditation and
-                    mindfulness.</p>
+                    like-minded people. We are devoted to giving you an experience you can carry with you in your everyday life. Our main purpose is to help guide you through a journey of self-discovery and inner peace. <br> Our authentic yoga studio
+                    was established in 2008 in the heart of Rotterdam. Our team is diverse and so are our students. We offer workshops and teacher trainings for those who want to deepen their own practice and knowledge about yoga, meditation and mindfulness.
+                </p>
             </div>
         </div>
         <hr class="divider-thin-grey">
+            <!--********WHY DO YOGA?********-->
         <div class="row">
             <div class=" text-center col-sm-4 offset-sm-4 ">
                 <h2 class="section-heading color-grey indent ">Why do yoga?</h2>
@@ -88,19 +94,17 @@
             <div class="col-12 col-sm-6 offset-sm-1 text-center">
                 <p><strong>Yoga</strong> is not only a form of exercise but a way of life. In simple terms, yoga is a series of stretches and poses that you do with breathing techniques. It offers the powerful benefits of exercise and well as mental health
                     improvement. Since yoga is gentle, almost anyone can do it, regardless of their age or fitness level. Benefits of practicing yoga on a regular basis include improved flexibility, mobility and posture. It actually builds muscle strenght
-                    and helps bone health. Yoga practitioners notice an improved blood flood and better immunity. </br>
-                    Apart from the impressive number of physical benefits, yoga is proven to increase serotonin levels and decrease cortisol. Improvement of balance and posture, better focus, and better sleep are also amongst the many effects of a regular yoga practice.
-                    And the list goes on.</br>
-                    Well, have we convinced you to give it a try? </p>
+                    and helps bone health. Yoga practitioners notice an improved blood flood and better immunity. <br> Apart from the impressive number of physical benefits, yoga is proven to increase serotonin levels and decrease cortisol. Improvement
+                    of balance and posture, better focus, and better sleep are also amongst the many effects of a regular yoga practice. And the list goes on.<br> Well, have we convinced you to give it a try? </p>
             </div>
             <div class="col-12 col-sm-5 text-center indent">
-                <img src="pictures/yogagirl.jpg"></img>
+                <img src="pictures/yogagirl.jpg" alt="Girl doing yoga on a cliff">
             </div>
         </div>
     </div>
 
 
-
+    <!--********FOOTER********-->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
@@ -157,7 +161,7 @@
         </div>
     </footer>
 
-
+    <!--********SIGN IN MODAL********-->
     <div class="modal" tabindex="-1" role="dialog" id="signInModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -171,13 +175,13 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required>
                         </div>
                         <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                            <label for="password1">Password</label>
+                            <input type="password" class="form-control" id="password1" placeholder="Password" required>
                         </div>
-                        <a href="#signUpModal" data-toggle="modal" data-dismiss="modal" class="text-decoration-none color-grey"> Not a member yet?</a> </br>
+                        <a href="#signUpModal" data-toggle="modal" data-dismiss="modal" class="text-decoration-none color-grey"> Not a member yet?</a> <br>
                         <button type="submit" class="btn btn--pink btn-space">Sign In</button>
                     </form>
                 </div>
@@ -185,6 +189,7 @@
         </div>
     </div>
 
+    <!--********SIGN UP MODAL********-->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -197,19 +202,19 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <label for="exampleInputEmail2">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email" required>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                            <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" placeholder="Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                             <small id="passwordHelp" class="form-text text-muted">Must contain at least one number and one uppercase and one lowercase letter. Must be at least 8 characters.</small>
                         </div>
                         <div class="form-group">
                             <label for="repeatPassword">Repeat Password</label>
                             <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
                         </div>
-                        <a href="#signInModal" data-toggle="modal" data-dismiss="modal" class="text-decoration-none color-grey"> Already a member?</a> </br>
+                        <a href="#signInModal" data-toggle="modal" data-dismiss="modal" class="text-decoration-none color-grey"> Already a member?</a> <br>
                         <button type="submit" class="btn btn--pink btn-space">Sign Up</button>
                     </form>
                 </div>
