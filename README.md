@@ -32,7 +32,10 @@ There are no broken links and it has been manually checked they all point to whe
 Different screen sizes have been tested to ensure responsiveness. The website has also been run on various web browsers, such as Chrome, Safari, Internet Explorer and Miscrosoft Edge, leading to the conclusion the website is compatible with all of them. 
 
 ## Deployment
-The site is hosted on GitHub pages, deployed from the master branch. The site automatically updates whenever there is a new commit on the master branch through the terminal at Cloud9. The landing page is named 'index.html' to ensure the website deploys properly. To run locally, the repository can be cloned into the editor of choice.
+The site is hosted on GitHub pages, deployed from the master branch. The site automatically updates whenever there is a new commit on the master branch through the terminal at Cloud9. The landing page is named 'index.html' to ensure the website deploys properly.
+
+To run locally, the repository is cloned into the editor of choice by pasting git clone https://github.com/diovcharova/milestoneproject1/ into your terminal. To unlink the site from the GitHub repository, type git remote rm origin into the terminal.
+The source code can be found at https://github.com/diovcharova/milestoneproject1/
 
 ## Credits
 
